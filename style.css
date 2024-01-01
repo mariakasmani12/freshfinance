@@ -1,0 +1,28 @@
+header{
+    height: 600px;
+    width: 100%;
+    background-image: url('/bus.jpg');
+    background-size: cover;
+    background-size: cover;
+    opacity: .6;
+}
+
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+transition: 6s;
+transition-delay: 5s;
+text-decoration: underline;
+}
+.nav-link :active{
+    text-decoration: underline;
+}
+.zindex{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    z-index: 2;
+    color: black;
+
+}
